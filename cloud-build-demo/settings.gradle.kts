@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "ohs-demo"
 include(":app")
- 

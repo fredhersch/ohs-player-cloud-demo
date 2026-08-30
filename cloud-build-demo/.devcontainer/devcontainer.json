@@ -1,0 +1,12 @@
+{
+  "name": "OHS Player Cloud Dev Container",
+  "image": "ghcr.io/cirruslabs/android-sdk:latest",
+  "features": {
+    "ghcr.io/tailscale/codespace/tailscale": {}
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  },
+  "postCreateCommand": "yes | sdkmanager --licenses"
+}
